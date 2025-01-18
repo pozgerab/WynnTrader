@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gertoxq.wynntrader.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GetNameMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "CancelClickMixin"
+  ]
+}
